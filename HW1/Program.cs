@@ -72,21 +72,21 @@ else Console.WriteLine("NO");
 
 Console.WriteLine("Введите число");
 int first = int.Parse(Console.ReadLine());
-
+            
 
 if (first % 2 == 0)
-{
-    Console.WriteLine(first);
-
-
-    while (first > 2)
     {
-
-        first = first - 2;                  
         Console.WriteLine(first);
-    }
 
-}
+
+        while (first > 2)
+        {
+
+            first = first - 2;                  
+            Console.WriteLine(first);
+        }
+
+    }
 else
 {
     Console.WriteLine(first - 1);
